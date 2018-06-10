@@ -9,6 +9,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 Vue.config.productionTip = false
 Vue.use(BootstrapVue)
+
 Vue.prototype.$serverAddress = 'http://localhost:4000'
 
 /* eslint-disable no-new */
